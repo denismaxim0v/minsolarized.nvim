@@ -136,7 +136,7 @@ function solarized.getTheme(options)
         DashboardFooter =   { fg = c.green, st = 'italic' },
         Comment =           { fg = c.base01 },
         Normal =            { fg = c.base0, bg = c.base03 },
-        SignColumn =        { fg = c.base0, bg = c.base03 },
+        SignColumn =        { fg = c.base0, bg = c.base02 },
         VertSplit =         { fg = c.base3  },
     }
 
@@ -230,9 +230,9 @@ function solarized.getTheme(options)
         CmpItemKind = { fg = c.green },
 
         -- GitGutter
-        GitGutterAdd =    { fg = c.green  },
-        GitGutterChange = { fg = c.yellow },
-        GitGutterDelete = { fg = c.red    },
+        GitGutterAdd =    { fg = c.green,  bg = c.base02},
+        GitGutterChange = { fg = c.yellow, bg = c.base02},
+        GitGutterDelete = { fg = c.red,    bg = c.base02},
 
         -- Telescope
         TelescopePromptBorder =   { fg = c.base01 },
