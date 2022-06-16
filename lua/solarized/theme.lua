@@ -212,9 +212,9 @@ function solarized.getTheme(options)
         LspDiagnosticsFloatingHint =           { fg = c.violet  },
         LspDiagnosticsVirtualTextHint =        { fg = c.violet  },
         LspDiagnosticsUnderlineHint =          { st = 'undercurl', sp = c.base01 },
-        LspReferenceText =                     { fg = c.base2, bg = c.base01 },
-        LspReferenceRead =                     { fg = c.base2, bg = c.base01 },
-        LspReferenceWrite =                    { fg = c.base2, bg = c.base01 },
+        LspReferenceText =                     { fg = c.base2, bg = c.base03 },
+        LspReferenceRead =                     { fg = c.base2, bg = c.base03 },
+        LspReferenceWrite =                    { fg = c.base2, bg = c.base03 },
 
         -- Diff
         diffAdded =     { fg = c.green  },
