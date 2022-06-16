@@ -25,7 +25,7 @@ function solarized.getTheme(options)
     end
 
     theme.core = {
-        Type =                { fg = c.yellow  },
+        Type =                { fg = c.cyan  },
         StorageClass =        { fg = c.cyan    },
         Structure =           { fg = c.violet  },
         Constant =            { fg = c.yellow  },
@@ -185,7 +185,7 @@ function solarized.getTheme(options)
         TSKeyword =           { fg = c.violet  },
         TSRepeat =            { fg = c.green},
         TSKeywordFunction =   { fg = c.yellow},
-        TSFunction =          { fg = c.violet},
+        TSFunction =          { fg = c.cyan},
         TSMethod =            { fg = c.violet},
         TSFuncBuiltin =       { fg = c.yellow},
         TSVariable =          { fg = c.base0  },
