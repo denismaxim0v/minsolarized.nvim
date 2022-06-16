@@ -163,7 +163,7 @@ function solarized.getTheme(options)
         TSParameterReference= { fg = c.green  },
         TSProperty =          { fg = c.green  },
         TSPunctDelimiter =    { fg = c.base0  },
-        TSPunctBracket =      { fg = c.base02    },
+        TSPunctBracket =      { fg = c.base0    },
         TSPunctSpecial =      { fg = c.base0  },
         TSStringRegex =       { fg = c.blue   },
         TSStringEscape =      { fg = c.base02 },
