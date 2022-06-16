@@ -86,7 +86,7 @@ function solarized.getTheme(options)
         LineNr =            { fg = c.base01, bg = c.base02 },
         CursorLineNr =      { fg = c.yellow, bg = c.base02 },
         MatchParen =        { fg = c.yellow, bg = c.none},
-        ModeMsg =           { fg = c.base2   },
+        ModeMsg =           { fg = c.base03   },
         MoreMsg =           { fg = c.base2   },
         NonText =           { fg = c.base02  },
         Pmenu =             { fg = c.base03, bg = c.base01 },
