@@ -107,7 +107,7 @@ function solarized.getTheme(options)
         StatusLineTerm =    { fg = c.base00, bg = c.base03 },
         StatusLineTermNC =  { fg = c.base01, bg = c.base02 },
         TabLineFill =       { fg = c.base00  },
-        TablineSel =        { fg = c.base3,  bg = c.base2 },
+        TablineSel =        { fg = c.base3,  bg = c.base03 },
         Tabline =           { fg = c.base00  },
         Title =             { fg = c.green,  bg = c.none},
         Visual =            { fg = c.base03, bg = c.base01 },
