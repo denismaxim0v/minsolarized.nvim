@@ -190,6 +190,9 @@ function solarized.getTheme(options)
         TSFuncBuiltin =       { fg = c.yellow},
         TSVariable =          { fg = c.base0  },
         TSVariableBuiltin =   { fg = c.base0  },
+        DiagnosticInfo = { fg = c.base01 }
+        DiagnosticHint = { fg = c.base01 }
+        DiagnosticWarn = { fg = c.yellow }
 
         -- LSP
         LspDiagnosticsDefaultError =           { fg = c.red },
