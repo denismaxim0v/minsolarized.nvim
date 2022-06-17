@@ -159,7 +159,7 @@ function solarized.getTheme(options)
         TSNamespace =         { fg = c.yellow },
         TSNumber =            { fg = c.cyan   },
         TSOperator =          { fg = c.base0  },
-        TSParameter =         { fg = c.blue   },
+        TSParameter =         { fg = c.base0   },
         TSParameterReference= { fg = c.green  },
         TSProperty =          { fg = c.green  },
         TSPunctDelimiter =    { fg = c.base0  },
@@ -261,7 +261,7 @@ function solarized.getTheme(options)
     -- Italic comments
     if options.italic_comments == true then
         theme.core.Comment =     {fg = c.base01, bg = c.none, st = 'italic'}
-        theme.plugins.TSComment= {fg = c.base01 , bg = c.none, st = 'bold,italic' }
+        theme.plugins.TSComment= {fg = c.base01 , bg = c.none, st = 'italic' }
     end
 
     --Set transparent background
